@@ -1,0 +1,32 @@
+{
+  "name": "pixbit-calculator-api",
+  "version": "1.0.0",
+  "description": "The API for a calculator that gives users an estimate of their app ideas.",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.1",
+    "chalk": "^1.1.3",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "extend": "^3.0.0",
+    "mandrill-api": "^1.0.45",
+    "morgan": "^1.7.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixbit/calculator-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixbit/calculator-api/issues"
+  },
+  "homepage": "https://github.com/pixbit/calculator-api#readme"
+}
